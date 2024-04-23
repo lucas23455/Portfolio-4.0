@@ -510,18 +510,13 @@ form .send-btn:hover {
 
 /*Footer*/
 
-.footer {
-    padding: 22px;
-    background: var(--second-bg-color);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
+.footer {    
+    text-align: center;
 }
 
 .copyright {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--other-color);
 }
 
@@ -536,6 +531,7 @@ form .send-btn:hover {
     border-radius: 50%;
     color: var(--Text-color);
     font-size: 27px;
+    margin: 10px;
 }
 
 /*responsividade*/
@@ -561,6 +557,7 @@ form .send-btn:hover {
     }
 }
 
+
 @media (max-width: 1380px) {
     header {
         padding: 20px 5%;
@@ -581,7 +578,8 @@ form .send-btn:hover {
     .hero {
         height: 90vh;
         background-position: center;
-    }
+        padding: 70px;
+    
 }
 
 @media (max-width: 1290px) {
